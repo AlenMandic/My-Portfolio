@@ -5,3 +5,4 @@ My own personal website / showcase
 
 # Link to deployed website: https://alenmandic.pages.dev/
 - Deployed using Cloudflare pages.
+- Coded and designed by me
