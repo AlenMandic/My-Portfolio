@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Personal Portfolio website of a web developer detailing who i am, my skills and knowledge,and my projects.">
+    <meta name="keywords" content="FullStack Web Development, personal portfolio">
+    <meta name="author" content="Alen Mandic">
+    <title>Alen Mandic - Web Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/assets/logo/logo-black.png" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="left-nav">
+          <a href="/"><img id="left-nav-img" src="./assets/logo/my-logo.png" alt="My logo"></a><p id="left-nav-name">ALEN MANDIC</p>
+        </div>
+        <div class="right-nav">
+          <ul class="hamburger" id="hamburger">
+            <li><span class="hamburger-span" id="first-span"></span></li>
+            <li><span class="hamburger-span" id="middle-span"></span></li>
+            <li><span class="hamburger-span" id="last-span"></span></li>
+          </ul>
+        </div>
+          <ul id="menu-ul">
+            <li><a class="menuItem" href="#about-h2-title">About</a></li>
+            <li><a class="menuItem" href="#showcase-h2">Showcase</a></li>
+            <li><a class="menuItem" href="#other-h2">Projects</a></li>
+            <li><a class="menuItem" href="#contact-h2">Contact</a></li>
+            <li><a class="menuItem" href="#">Resume</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <article>
+        <section class="introduction">
+          <div><p id="intro-first-p">Welcome! 🙋🏽‍♂️ My name is...</p></div>
+          <div><h1 id="intro-h1">Alen Mandic</h1></div>
+          <div><h2 id="intro-h2">Full-stack web developer</h2></div>
+          <div class="intro-icon-text"><img src="./assets/mini-icons/location-icon.0259eb53.svg" class="intro-small-icon" alt="location icon"><p class="intro-small-text">Split, Croatia</p></div>
+          <div class="intro-icon-text"><img src="./assets/mini-icons/school-icon.3c37b27f.svg" class="intro-small-icon" alt="location icon"><p class="intro-small-text">Aspiring Web Developer</p></div>
+          <div id="intro-short-about"><p>A Full-stack Web Developer who focuses on creating responsive and performant web applications. With a burning passion for anything web-dev related and a love for learning, I am always searching for ways to deliver high quality web applications and looking for new challenges!</p></div>
+          <div id="intro-projects-div"><a href="#showcase-h2" id="intro-projects-button">Check out my work!</a></div>
+        </section>
+        <section class="about">
+          <div id="about-h2-title"><h2>About me</h2></div>
+          <div class="about-widescreen-flex">
+            <div id="about-profile-image"><img id="profile-img" alt="Picture of me" src="./assets/images/my-profile.jpg"></div>
+            <div class="about-widescreen-nonimg">
+              <div id="about-h3"><h3>My story</h3></div>
+              <div class="about-para"><p>A <em>Full-stack developer</em> looking for opportunities to learn and grow. For the past 3 years i have been learning web development and creating projects, and since then I have continued to improve my skills as a developer, constantly learning and adapting to new technologies.</p></div>
+              <div class="about-para"><p>
+                I have used <em>JavaScript</em>, <em>React</em>, <em>Node</em> and other tools/databases to create web-applications that are <em>responsive</em>, <em>performant</em>, and <em>accessible</em>. From developing smaller websites to full-stack applications, i have a set of skills that allow me to plan and create both front-end interfaces and back-end logic.
+              </p></div>
+              <div class="about-para"><p>I am currently open to job opportunities where I can <em>contribute as a team player, learn, and grow</em> as a software developer and as a person. If you believe that I am a developer that will mesh well with your team and goals, please feel free to contact me!</p></div>
+              <div id="skills-h2-div"><h2>Skills & tech</h2></div>
+              <div class="skills-container">
+                <div class="skill"><p>HTML</p><img class="small-skill" alt="Small icon" src="./assets/mini-icons/html.png"></div>
+                <div class="skill"><p>CSS</p><img class="small-skill" alt="Small icon" src="./assets/mini-icons/css.png"></div>
+                <div class="skill"><p>JavaScript</p><img class="small-skill" alt="Small icon" src="./assets/mini-icons/javascript.png"></div>
+                <div class="skill"><p>React</p><img class="small-skill" alt="Small icon" src="./assets/mini-icons/react.png"></div>
+                <div class="skill"><p>TypeScript</p><img class="small-skill" alt="Small icon" src="./assets/mini-icons/typescript.png"></div>
+                <div class="skill"><p>NodeJS</p><img class="small-skill" alt="Small icon" src="./assets/mini-icons/nodejs.png"></div>
+                <div class="skill"><p>Express</p><img class="small-skill" alt="Small icon" src="./assets/mini-icons/express.png"></div>
+                <div class="skill"><p>Git</p><img class="small-skill" alt="Small icon" src="./assets/mini-icons/git.png"></div>
+                <div class="skill"><p>MongoDB</p><img class="small-skill" alt="Small icon" src="./assets/mini-icons/mongodb.png"></div>
+                <div class="skill"><p>SQL</p><img class="small-skill" alt="Small icon" src="./assets/mini-icons/sql.png"></div>
+                <div class="skill"><p>PostgreSQL</p><img class="small-skill" alt="Small icon" src="./assets/mini-icons/postgres.png"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="projects-showcase">
+          <div id="showcase-h2"><h2>Project Showcase</h2></div>
+          <div class="project-container">
+            <div class="project-image">
+              <img class="project-image-img" alt="Picture of my project" src="./assets/images/fullstack-blog-app.png" id="portfolio-third">
+            </div>
+            <div class="project-info">
+              <div class="project-info-title"><h2 class="project-info-h2">Fullstack blog-posting app</h2></div>
+              <div class="project-info-description"><p class="project-info-about-p">Post, explore, and like blog posts.<br>
+              Users can create accounts, log in securely, and post various blog posts they like.<br>
+              They can also like blog posts,and explore the users and their blogs<br>
+              Everything is shareable and divided by links using React Router<br>
+              Back-end testing was done using JEST/Supertest,
+              end-2-end testing was done using Cypress<br>
+              Styled using Material-UI
+              </p></div>
+              <div class="project-info-tags"><p class="project-info-tags-p">JavaScript, React, Express, MongoDB, Material-UI, JSON web token, React-Router</p></div>
+              <div class="project-info-links">
+                <a target="_blank" href="https://blog-list-app-backend.fly.dev/">Live site ></a>
+                <a target="_blank" href="https://github.com/AlenMandic/fullstack-blog-app-backend">View code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-container">
+            <div class="project-image">
+              <img class="project-image-img" alt="Picture of my project" src="./assets/images/weather-app-showcase.jpg">
+            </div>
+            <div class="project-info">
+              <div class="project-info-title"><h2 class="project-info-h2">Weather Application</h2></div>
+              <div class="project-info-description"><p class="project-info-about-p">
+                Hosted on Netlify. I used Netlify's serverless functions to handle back-end functionality.<br>
+                Live search dropdown menu for any location using debounced fetching.<br>
+                Smart app refresh system using recursion.<br>
+                Video of current weather type.<br>
+                Detailed read-me on GitHub page.
+              </p></div>
+              <div class="project-info-tags"><p class="project-info-tags-p">HTML, CSS, JavaScript, Serverless functions</p></div>
+              <div class="project-info-links">
+                <a target="_blank" href="https://weather-forecast-app-one.netlify.app/">Live site ></a>
+                <a target="_blank" href="https://github.com/AlenMandic/weather-app-alen">View code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-container" id="project-two">
+            <div class="project-image" id="project-two-image">
+              <img class="project-image-img" alt="Picture of my project" src="./assets/images/painter-showcase.jpg">
+            </div>
+            <div class="project-info" id="project-two-info">
+              <div class="project-info-title"><h2 class="project-info-h2">Painter's Gallery</h2></div>
+              <div class="project-info-description"><p class="project-info-about-p">
+                A beatiful gallery showcase for a painter.<br>
+                Hosted and deployed using GitHub pages.<br>
+                Features different responsive gallery designs/shifts, horizontal scrolling, animations.<br>
+                The grid showcase switches into a mobile horizontal scrollbar on mobile devices.<br>
+                Uses modern image formats to serve high quality images while consuming low amounts of data.
+                You can also get in touch and submit any message to me via the form at the bottom of the page!
+              </p></div>
+              <div class="project-info-tags"><p class="project-info-tags-p">HTML, CSS, JavaScript</p></div>
+              <div class="project-info-links">
+                <a target="_blank" href="https://alenmandic.github.io/">Live site ></a>
+                <a target="_blank" href="https://github.com/AlenMandic/AlenMandic.github.io">View code</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="other-projects">
+          <div id="other-h2"><h2>Other projects</h2></div>
+          <div class="other-container">
+            <div class="other-project" id="project-1">
+              <div class="other-h2"><h2>FullStack Phonebook</h2><a target="_blank" href="https://github.com/AlenMandic/phonebook-backend" class="github-link"><img alt="GitHub logo" src="./assets/logo/github-mark-white.png" class="other-mini-icon"></a></div>
+              <div class="other-p"><p>
+                App for adding and storing phone-numbers, REST api<hr class="small-p-divider"> Saving the numbers to a mongodb database and validatings inputs, displaying and handling errors.<hr class="small-p-divider">We can add, update, delete and read ( CRUD ) phonebook entries.
+              </p></div>
+              <div class="other-tags"><p>JavaScript, React, Express, MongoDB</p></div>
+            </div>
+          </div>
+          <div class="other-container">
+            <div class="other-project" id="project-2">
+              <div class="other-h2"><h2>Login component</h2><a target="_blank" href="https://github.com/AlenMandic/login-system-react" ><img alt="GitHub logo" src="./assets/logo/github-mark-white.png" class="other-mini-icon"></a></div>
+              <div class="other-p"><p>Created a modern looking login form with React.<br>Changing pages and visual states using React. Custom loading animation.<hr class="small-p-divider">Using promises to simulate network requests and authenticating attempted logins.<br>Custom error notifications for bad requests and authentication.</p></div>
+              <div class="other-tags"><p>CSS, React, TypeScript</p></div>
+            </div>
+          </div>
+          <div class="other-container">
+            <div class="other-project" id="project-3">
+              <div class="other-h2"><h2>React To-Do App</h2><a target="_blank" href="https://github.com/AlenMandic/react-to-do-app" class="github-link"><img alt="GitHub logo" src="./assets/logo/github-mark-white.png" class="other-mini-icon"></a></div>
+              <div class="other-p"><p>
+                My version of a to-do app with persistent data storage.<hr class="small-p-divider">
+                Generating a unique ID for each to-do item.<hr class="small-p-divider">
+                Intention of further mastering data flow, function callbacks between components, handling state across multiple components, properly handling arrays and objects with state, and tying it all together with localStorage.
+              </p></div>
+              <div class="other-tags"><p>CSS, React, TypeScript</p></div>
+            </div>
+          </div>
+          <div class="other-container">
+            <div class="other-project" id="project-1">
+              <div class="other-h2"><h2>This portfolio</h2><a target="_blank" href="https://github.com/AlenMandic/phonebook-backend" class="github-link"><img alt="GitHub logo" src="./assets/logo/github-mark-white.png" class="other-mini-icon"></a></div>
+              <div class="other-p"><p>
+                Made to showcase my skills in web development, projects i've worked on, the tech stack i'm working with, and to connect with other people. <hr class="small-p-divider">
+                 Whether you're a fellow developer, a potential employer, or someone passionate about tech, <strong>I'm eager to hear from you and to start working together.</strong>
+              </p></div>
+              <div class="other-tags"><p>Semantic HTML, CSS, JavaScript</p></div>
+            </div>
+          </div>
+          <div class="other-container">
+            <div class="other-project" id="project-1">
+              <div class="other-h2"><h2>Simple Calculator</h2><a target="_blank" href="https://github.com/AlenMandic/simple-calculator" class="github-link"><img alt="GitHub logo" src="./assets/logo/github-mark-white.png" class="other-mini-icon"></a></div>
+              <div class="other-p"><p>
+                A very simple calculator project, however a very useful practice to learn <strong>CSS grid</strong> responsive layout, and <strong>JavaScript classes</strong><hr class="small-p-divider">
+                A basic calculator made responsive using CSS grid and flexbox, and a 'Calculator' class which holds all the logic to make it function.
+              </p></div>
+              <div class="other-tags"><p>HTML, CSS grid, JavaScript</p></div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer class="footer">
+      <div class="footer-h2"><h2 id="contact-h2">Let's collaborate</h2></div>
+      <div class="footer-outro-p"><p>I am currently looking for opportunies to learn and grow in the web development industry, my inbox is always open! If you have any questions or just want to say hello, please feel free to contact me with the form below. Please be sure to check out my social media profiles as well! <em id="outro-em">Happy coding!</em></p></div>
+      <div class="footer-form">
+        <form id="contact-form" action="https://formsubmit.co/533fbdb3a940108c499d99714c9c003e" method="POST">
+          <input type="text" name="name" required placeholder="Your name *" autocomplete="true">
+          <input type="text" name="subject" required placeholder="Subject *" autocomplete="true">
+          <input type="email" name="email" required placeholder="Your email *" autocomplete="true">
+          <textarea id="message" name="message" required placeholder="Your message *" autocomplete="true"></textarea>
+          <button type="submit">Send</button>
+     </form>
+      </div>
+      <div class="footer-email-link">
+        <h4>Or you can directly email me instead:</h4>
+        <a href="mailto:alenmandic1@gmail.com?&subject=Contact from Portfolio site">alenmandic1@gmail.com</a>
+      </div>
+      <div class="footer-social">
+        <a target="_blank" href="https://www.github.com/AlenMandic"><img alt="GitHub" src="./assets/logo/github-mark-white.png"></a>
+        <a target="_blank" href="https://www.github.com/AlenMandic"><img alt="LinkedIn" src="./assets/logo/linkedin.svg"></a>
+      </div>
+      <div class="footer-copyright"><p>
+        Designed and built by Alen Mandic ✅
+      </p></div>
+    </footer>
+  </body>
+</html>
