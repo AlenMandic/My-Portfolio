@@ -262,7 +262,7 @@ body {
 }
 
 #about-h2-title h2 {
-  border-bottom: solid 6px darkgreen;
+  border-bottom: solid 6px yellow;
   padding-bottom: 10px;
   border-radius: 4px;
 }
@@ -329,7 +329,7 @@ em {
 }
 
 #showcase-h2 h2 {
-  border-bottom: solid 6px darkgreen;
+  border-bottom: solid 6px yellow;
   padding-bottom: 10px;
   border-radius: 4px;
 }
@@ -386,7 +386,7 @@ em {
 }
 
 #other-h2 h2 {
-  border-bottom: solid 6px darkgreen;
+  border-bottom: solid 6px yellow;
   padding-bottom: 10px;
   border-radius: 4px;
 }
@@ -470,7 +470,7 @@ em {
 }
 
 .footer-h2 h2 {
-  border-bottom: solid 6px darkgreen;
+  border-bottom: solid 6px yellow;
   padding-bottom: 10px;
   border-radius: 4px;
 }
@@ -760,7 +760,7 @@ em {
   }
 
   #other-h2 h2 {
-    border-bottom: solid 6px darkgreen;
+    border-bottom: solid 6px yellow;
     padding-bottom: 10px;
     border-radius: 4px;
   }

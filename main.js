@@ -8,8 +8,9 @@ const spanThree = document.getElementById('last-span');
 const menuLinks = document.getElementsByClassName('menuItem');
 const otherProjects = document.getElementsByClassName('other-project');
 
-const linksOtherProjects = ['https://phonebook-backend-fyuu.onrender.com', 'https://87zksq.csb.app/', 'https://rvqwcl.csb.app/', 'https://old.reddit.com/', 'https://codepen.io/alen1234/full/poQvdmQ']
-const githubOtherProjects = ['https://github.com/AlenMandic/phonebook-backend', 'https://github.com/AlenMandic/login-system-react','https://github.com/AlenMandic/react-to-do-app', 'https://github.com/AlenMandic/', 'https://github.com/AlenMandic/simple-calculator']
+const linksOtherProjects = ['https://phonebook-backend-fyuu.onrender.com', 'https://87zksq.csb.app/', 'https://rvqwcl.csb.app/', 'https://alenmandic.pages.dev/', 'https://codepen.io/alen1234/full/poQvdmQ']
+
+const githubOtherProjects = ['https://github.com/AlenMandic/phonebook-backend', 'https://github.com/AlenMandic/login-system-react','https://github.com/AlenMandic/react-to-do-app', 'https://github.com/AlenMandic/My-Portfolio', 'https://github.com/AlenMandic/simple-calculator']
 
 hamburger.addEventListener("click", () => {
   menu.classList.toggle('open');
