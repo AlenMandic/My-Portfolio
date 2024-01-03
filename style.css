@@ -211,7 +211,7 @@ body {
 
 #intro-h1 {
   font-size: 2rem;
-  color: #feb712;
+  color: yellow;
   margin-top: -10px;
 }
 
@@ -244,14 +244,14 @@ body {
 
 #intro-projects-button {
   text-decoration: none;
-  color: #feb712;
+  color: yellow;
   height: 100%;
   min-width: 13rem;
   max-width: 18rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 1px #feb712;
+  border: solid 1px yellow;
 }
 
 #about-h2-title {
@@ -281,14 +281,14 @@ body {
 }
 
 #about-h3 {
-  color: #feb712;
+  color: yellow;
   margin-left: 20px;
   margin-top: 40px;
 }
 
 em {
   font-style: italic;
-  color: #feb712;
+  color: yellow;
 }
 
 .about-para {
@@ -299,7 +299,7 @@ em {
 
 #skills-h2-div {
   margin-left: 20px;
-  color: #feb712;
+  color: yellow;
 }
 
 .skills-container {
@@ -356,7 +356,7 @@ em {
 }
 
 .project-info-h2 {
-  color: #feb712;
+  color: yellow;
 }
 
 .project-info-tags {
@@ -375,7 +375,7 @@ em {
 }
 
 .project-info-links > a {
-  color: #feb712;
+  color: yellow;
 }
 
 #other-h2 {
@@ -426,7 +426,7 @@ em {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: #feb712;
+  color: yellow;
   font-size: 14px;
 }
 
@@ -450,7 +450,7 @@ em {
   padding-left: 10px;
   font-size: 20px;
   font-weight: bold;
-  color:#feb712;
+  color:yellow;
   font-style: italic;
 }
 
@@ -531,7 +531,7 @@ em {
   height: 60px;
   border: solid 2px white;
   border-radius: 15px;
-  color:#feb712;
+  color:yellow;
   font-size: 28px;
   background-color: transparent;
 }
@@ -712,12 +712,12 @@ em {
     z-index: 2;
     padding-left: 8px;
     border-radius: 8px;
-    border: solid 3px #feb712;
+    border: solid 3px yellow;
     align-self: end;
   }
 
   .project-info-h2 {
-    color: #feb712;
+    color: yellow;
   }
 
   #project-two {
@@ -749,7 +749,7 @@ em {
 
   .project-info-links > a {
     cursor: pointer;
-    color:#feb712;
+    color:yellow;
     margin-top: -10px;
   }
 
@@ -784,7 +784,7 @@ em {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: #feb712;
+    color: yellow;
   }
 
   .other-h2 > a {
