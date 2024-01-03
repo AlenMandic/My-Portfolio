@@ -677,7 +677,7 @@ em {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     border: none;
   }
 
@@ -699,7 +699,7 @@ em {
   }
 
   .project-image-img {
-    height: 25rem;
+    height: 33rem;
     width: 30rem;
     border-radius: 8px;
   }
@@ -713,6 +713,7 @@ em {
     padding-left: 8px;
     border-radius: 8px;
     border: solid 3px #feb712;
+    align-self: end;
   }
 
   .project-info-h2 {
