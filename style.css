@@ -10,22 +10,10 @@ input[data-autocompleted] {
     background-color: transparent !important;
 }
 
-@font-face {
-  font-family: "OpenSans";
-  src: url("./assets/fonts/OpenSans-Regular.ttf") format("truetype");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "OpenSans-bold";
-  src: url("./assets/fonts/OpenSans-Bold.ttf") format("truetype");
-  font-display: swap;
-}
-
 html {
   background-color: black;
   color: white;
-  font-family: "OpenSans";
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   scroll-behavior: smooth;
 }
 
@@ -43,7 +31,7 @@ body {
   justify-content: space-between;
   background-color: white;
   color: black;
-  font-family: "OpenSans-bold";
+  font-family:'Times New Roman', Times, serif;
   z-index: 3;
 }
 
@@ -53,6 +41,10 @@ body {
   width: 70%;
   gap: 0.5rem;
   padding-left: 2rem;
+}
+
+#left-nav-name {
+  font-weight: 600;
 }
 
 #left-nav-img {
@@ -109,7 +101,7 @@ body {
 }
 
 .small-p-divider {
-  height: 5px;
+  height: 1px;
 }
 
 @media (hover: hover) {
@@ -133,7 +125,7 @@ body {
   }
 
   .footer-form > form > button:hover {
-    scale: 1.2;
+    scale: 1.1;
   }
 
   .footer-social > a > img:hover {
@@ -147,6 +139,7 @@ body {
 
 #menu-ul > li:nth-child(5) > a {
   color: rgb(88, 88, 88);
+  font-weight: 600;
 }
 
 .menuItem {
@@ -233,6 +226,8 @@ body {
 
 #intro-short-about {
   width: 90%;
+  line-height: 1.6;
+  font-size: 14px;
 }
 
 #intro-projects-div {
@@ -349,6 +344,12 @@ em {
   color: white;
   width: 95%;
   font-size: 14px;
+}
+
+.project-info-about-p {
+  font-size: 15px;
+  margin-left: -30px;
+  line-height: 1.5;
 }
 
 .project-image {
@@ -502,7 +503,6 @@ em {
 
 .footer-form > form > input {
   font-weight: 600;
-  font-family: 'Bacasime Antique', sans-serif;
   font-size: 18px;
   width: 300px;
   height: 40px;
@@ -510,11 +510,11 @@ em {
   border-radius: 8px;
   color: white;
   background-color: transparent;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .footer-form > form > textarea {
   font-weight: 600;
-  font-family: 'Bacasime Antique', sans-serif;
   font-size: 20px;
   width: 300px;
   height: 100px;
@@ -522,11 +522,11 @@ em {
   border-radius: 8px;
   color: white;
   background-color: transparent;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .footer-form > form > button {
   font-weight: 600;
-  font-family: 'Bacasime Antique', sans-serif;
   width: 150px;
   height: 60px;
   border: solid 2px white;
@@ -534,6 +534,7 @@ em {
   color:yellow;
   font-size: 28px;
   background-color: transparent;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .footer-social {
@@ -687,10 +688,6 @@ em {
     margin-top: 250px;
   }
 
-  .about-para:nth-child(4) {
-    margin-top: 40px;
-  }
-
   .skills-container {
     width: 450px;
     height: 130px;
@@ -755,8 +752,8 @@ em {
   }
 
   .project-info-about-p {
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 15px;
+    line-height: 1.3;
   }
 
   .project-info-tags {
@@ -826,6 +823,7 @@ em {
   .other-p {
     width: 95%;
     padding-left: 10px;
+    font-size: 16px;
   }
 
   .other-tags {
@@ -878,10 +876,10 @@ em {
 
 }
 
-@media only screen and (max-width: 331px) {
+@media only screen and (max-width: 335px) {
 
 #left-nav-name {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 }
