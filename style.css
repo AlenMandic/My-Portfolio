@@ -754,6 +754,7 @@ em {
   .project-info-about-p {
     font-size: 15px;
     line-height: 1.3;
+    margin-left: -15px;
   }
 
   .project-info-tags {
