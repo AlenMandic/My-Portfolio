@@ -726,10 +726,6 @@ em {
     z-index: 0;
   }
 
-  #portfolio-third {
-    border: solid 1px gray;
-  }
-
   .project-image:hover {
     z-index: 5;
   }
