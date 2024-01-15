@@ -506,6 +506,7 @@ em {
   font-size: 18px;
   width: 300px;
   height: 40px;
+  padding: 5px;
   border: solid 2px white;
   border-radius: 8px;
   color: white;
@@ -518,6 +519,7 @@ em {
   font-size: 20px;
   width: 300px;
   height: 100px;
+  padding: 10px;
   border: solid 2px white;
   border-radius: 8px;
   color: white;
@@ -857,10 +859,12 @@ em {
 
   .footer-form > form > input {
     width: 500px;
+    padding: 5px;
   }
 
   .footer-form > form > textarea {
     width: 500px;
+    padding: 10px;
   }
 
   .footer-social {
