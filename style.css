@@ -722,7 +722,6 @@ em {
   .project-image {
     display: block;
     height: 25rem;
-    width: 30rem;
     margin-right: -150px;
     border-radius: 9px;
     z-index: 0;
@@ -741,13 +740,14 @@ em {
   .project-info {
     background-color: black;
     color: white;
-    height: 20rem;
+    height: 22rem;
     width: 38rem;
     z-index: 2;
     padding-left: 8px;
     border-radius: 8px;
     border: solid 3px yellow;
     align-self: end;
+    padding: 20px;
   }
 
   .project-info-h2 {
