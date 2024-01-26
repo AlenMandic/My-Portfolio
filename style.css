@@ -733,8 +733,9 @@ em {
 
   .project-image-img {
     height: 33rem;
-    width: 25rem;
+    width: 20rem;
     border-radius: 8px;
+    object-fit: fill;
   }
 
   .project-info {
