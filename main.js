@@ -8,9 +8,9 @@ const spanThree = document.getElementById('last-span');
 const menuLinks = document.getElementsByClassName('menuItem');
 const otherProjects = document.getElementsByClassName('other-project');
 
-const linksOtherProjects = ['https://phonebook-backend-fyuu.onrender.com', 'https://87zksq.csb.app/', 'https://rvqwcl.csb.app/', 'https://alenmandic.pages.dev/', 'https://qnl6km-5173.csb.app']
+const linksOtherProjects = ['https://alenmandic.github.io/', 'https://87zksq.csb.app/', 'https://rvqwcl.csb.app/', 'https://alenmandic.pages.dev/', 'https://qnl6km-5173.csb.app']
 
-const githubOtherProjects = ['https://github.com/AlenMandic/phonebook-backend', 'https://github.com/AlenMandic/login-system-react','https://github.com/AlenMandic/react-to-do-app', 'https://github.com/AlenMandic/My-Portfolio', 'https://github.com/AlenMandic/React-Query-Basic-Examples']
+const githubOtherProjects = ['https://github.com/AlenMandic/AlenMandic.github.io', 'https://github.com/AlenMandic/login-system-react','https://github.com/AlenMandic/react-to-do-app', 'https://github.com/AlenMandic/My-Portfolio', 'https://github.com/AlenMandic/React-Query-Basic-Examples']
 
 hamburger.addEventListener("click", () => {
   menu.classList.toggle('open');
