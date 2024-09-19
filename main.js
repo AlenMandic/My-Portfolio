@@ -8,7 +8,7 @@ const spanThree = document.getElementById('last-span');
 const menuLinks = document.getElementsByClassName('menuItem');
 const otherProjects = document.getElementsByClassName('other-project');
 
-const linksOtherProjects = ['https://alenmandic.github.io/', 'https://87zksq.csb.app/', 'https://alenmandic.pages.dev/', 'https://2ywg73-5173.csb.app/']
+const linksOtherProjects = ['https://alenmandic.github.io/', 'https://87zksq.csb.app/', 'https://alenmandic.pages.dev/', 'https://3d54kq.csb.app/']
 
 const githubOtherProjects = ['https://github.com/AlenMandic/AlenMandic.github.io', 'https://github.com/AlenMandic/login-system-react', 'https://github.com/AlenMandic/My-Portfolio', 'https://github.com/AlenMandic/React-Query-Basic-Examples']
 
